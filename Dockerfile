@@ -20,4 +20,4 @@ WORKDIR /monero-stratum
 
 ADD config.json /monero-stratum/config.json
 
-CMD ["./monero-stratum", "config.json"]
+CMD ["./build/bin/monero-stratum", "config.json"]

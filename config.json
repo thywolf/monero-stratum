@@ -1,9 +1,6 @@
 {
-  // Address for block rewards
   "address": "4BHhypemdeAY6EZ2zwtMYdLnqeRAZiXrEh9YKUoeJg66XyWsrrxy2cgUy8nceG8EvifZd5ULUfL8gFHmmaXcxPHFECnAW7a",
-  // Don't validate address
   "bypassAddressValidation": true,
-  // Don't validate shares
   "bypassShareValidation": true,
 
   "threads": 2,
@@ -12,11 +9,9 @@
   "luckWindow": "24h",
   "largeLuckWindow": "72h",
 
-  // Interval to poll daemon for new jobs
   "blockRefreshInterval": "1s",
 
   "stratum": {
-    // Socket timeout
     "timeout": "15m",
 
     "listen": [
