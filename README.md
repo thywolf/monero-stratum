@@ -1,1 +1,3 @@
 # monero-stratum
+
+This is a work-in-progress...
