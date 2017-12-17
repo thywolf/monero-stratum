@@ -20,4 +20,8 @@ WORKDIR /monero-stratum
 
 ADD config.json /monero-stratum/config.json
 
+EXPOSE 1111
+EXPOSE 3333
+EXPOSE 8082
+
 CMD ["./build/bin/monero-stratum", "config.json"]
